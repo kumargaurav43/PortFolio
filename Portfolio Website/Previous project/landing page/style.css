@@ -1,0 +1,109 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#loading {
+  position: fixed;
+  width: 100%;
+  height: 100vh;
+  background: #fff url(img/preloader.gif) no-repeat center;
+  z-index: 9999;
+}
+
+body {
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Koulen', cursive;
+}
+
+.wrap {
+  background: rgba(0, 0, 0, 0.5) url(img/wallpaper.webp) no-repeat;
+  background-position: center;
+  background-size: cover;
+  min-height: 100vh;
+  overflow: hidden;
+  background-blend-mode: overlay;
+}
+
+/* .wave {
+  position: absolute;
+  width: 100%;
+  bottom: -140px;
+  color: #fff;
+  opacity: 1;
+} */
+
+header {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  padding: 25px 80px;
+  background: linear-gradient(to top, transparent, rgba(0, 0, 0, 0.6));
+}
+
+header .logo {
+  font-size: 28px;
+  font-weight: 700;
+  color: #fff;
+  float: left;
+}
+
+/* header .menu {
+  float: right;
+  margin-top: 5px;   
+}
+
+header ul li {
+  display: inline-block;   
+}
+
+header ul li a {
+  text-decoration: none;
+  font-size: 16px;      
+  color: #fff;
+  margin: 0 25px;
+  font-weight: 300;
+  letter-spacing: 1px;
+} */
+
+.content {
+  max-width: 55%;
+  padding: 200px 80px 0;
+  color: #fff;
+}
+
+.content h1 {
+  font-size: 45px;
+}
+
+.content p {
+  font-size: 20px;
+  padding: 25px 0;
+  font-weight: 300;
+}
+
+.content .btn-group {
+  margin-top: 45px;
+}
+
+.content a {
+  display: inline-block;
+  padding: 15px 45px;
+  text-decoration: none;
+  color: #fff;
+  border-radius: 50px;
+}
+
+.content a.color {
+  background-color: #ffc107;
+}
